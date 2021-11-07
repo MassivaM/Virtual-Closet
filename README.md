@@ -18,7 +18,9 @@ Once a selection is made the data is sent to a Notion database that keeps tracks
 ``` pip3 install -r requirements.txt ```
 2. Modify the main.py file with your Notion credentials
 ```token = "input token here" databaseId = "input database id" ```
-3. Run the file 
+3. Add your weather token 
+```owm = pyowm.OWM("your token")```
+5. Run the file 
 
 ```python3 main.py```
 
