@@ -526,7 +526,7 @@ class TestPage(tk.Frame):
         # Position image
 
         # Get the weather
-        owm = pyowm.OWM("f91f1c278549e2dad06f5218806c3f46")
+        owm = pyowm.OWM("your token")
         mng = owm.weather_manager()
         obs = mng.weather_at_place("Montreal")
 
