@@ -1,0 +1,4 @@
+Pillow==7.0.0
+playsound==1.2.2
+pyobjc==6.2
+requests = 2.25.0
